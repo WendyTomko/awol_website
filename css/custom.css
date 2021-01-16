@@ -1,0 +1,343 @@
+@charset "UTF-8";
+/* index.html start */
+ 
+.img-responsive {
+	height: auto;
+}
+
+h1 {
+	text-align: center;
+	font-family: nocturne-serif, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 40px;                                
+	color: #85104C;
+	letter-spacing: -1.32px;
+	opacity: 1;
+} 
+
+h2 {
+	/*text-align: center;*/
+	color: #1C808D;
+	font-family: nocturne-serif, serif;
+	font-weight: 500;
+	font-style: italic;
+	font-size:75px;
+	letter-spacing: -2.48px;
+}
+
+h4 {color: #000000;
+	font-family: nocturne-serif, serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.center-content {
+	text-align: center;	
+}
+
+#row-1-what {
+	width: 1136px;
+	max-height: 272px;
+	background-color: #FCE5DA;
+	margin-top: 10%;
+}
+
+.what-text-background {
+	max-width: 91px;
+	max-height: 30px;
+	background-color: #F4D4D5;
+	border-radius: 15px;
+	margin-left: 5px;
+}
+.what-text {
+	margin-top: 50px;
+	margin-left: 11px;
+}
+
+#row-2-who {
+	width: 1136px;
+	max-height: 272px;
+	background-color: #FFF4E1;
+	margin-top: 10%;
+}
+
+.who-text-background {
+	max-width: 91px;
+	max-height: 30px;
+	background-color: #DFE9A2;
+	border-radius: 15px;
+	margin-left: 448px;
+}
+
+.who-text {
+	margin-left: 19px;
+	
+}
+
+#jumbo-footer  {
+	width: 1136px;
+	height: 136px;
+	background-color: #F8F2D2;
+	margin-top: 10%;
+}
+
+.footer {
+	text-align: center;
+	font-family: nocturne-serif, serif;
+	font-weight: 400;
+	font-style: normal;
+	/*font-size: 40px;*/
+	color: #85104C;
+	letter-spacing: -1.32px;
+	opacity: 1;
+	margin-top: -2.5%;
+}
+@media screen and (min-width: 1px) {  
+  .img-responsive {width: 75%;} 
+	#wendy-image {margin-top: 200px;}
+	#spoonbill-image {margin-bottom: 200px;}
+}
+
+@media screen and (min-width: 479px) {  
+  .img-responsive {width: 75%;} 
+	
+}
+ 
+@media screen and (min-width: 767px) {  
+  .img-responsive {width: 100%;} 
+}
+
+@media screen and (min-width: 991px ) {
+  .img-responsive {width: 100%;}
+}
+@media screen and (min-width: 1200px ) {
+  .img-responsive {width: 100%;}
+	#wendy-image {margin-top: 0;}
+	#spoonbill-image {margin-bottom: 0;}
+}
+
+
+/* Extra small devices (landscape phones, 1 px and up) */
+@media (min-width: 1px) {  
+  h1 {font-size: 1.5rem;} /*1rem = 16px*/
+}
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {  
+  h1 {font-size: 1.50rem;} /*1rem = 16px*/
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+  h1 {font-size: 2.0rem;} /*1rem = 16px*/
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  h1 {font-size: 2.5rem} /*1rem = 16px*/
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  h1 {font-size: 2.5rem;} /*1rem = 16px*/    
+}
+/* Extra small devices (landscape phones, 1 px and up) */
+@media (min-width: 1px) {  
+  h2 {font-size: 2.5rem;} /*1rem = 16px*/
+}
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {  
+  h2 {font-size:2.5rem;} /*1rem = 16px*/
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+  h2 {font-size:3.6rem;} /*1rem = 16px*/
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  h2 {font-size:4.6rem} /*1rem = 16px*/
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  h2 {font-size:4.6rem;} /*1rem = 16px*/    
+}
+
+/* Extra small devices (landscape phones, 1 px and up) */
+@media (min-width: 1px) {  
+  h4 {font-size: .75rem;} /*1rem = 16px*/
+}
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {  
+  h4 {font-size:.75rem;} /*1rem = 16px*/
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+  h4 {font-size:.75rem;} /*1rem = 16px*/
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  h4 {font-size:1.25rem} /*1rem = 16px*/
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  h4 {font-size:1.25rem;} /*1rem = 16px*/    
+}
+
+ 
+/* index.html end above */
+/* what.html start below */
+
+.what-header {
+	margin-top: 30px;
+}
+
+/* h1 & h2 css located in index.html section*/
+/* begins work.html section*/
+
+h3 {
+	font-family: nocturne-serif, serif;
+	font-weight: 400;
+	font-style: normal;
+	/*font-size: 50px;*/
+	color: #000000;
+	character-spacing: -1.65;
+	line-spacing: 45;
+	margin-top: 30px;
+}
+
+.govt {
+	margin-top: 3%;
+}
+ul {
+	list-style-type: none;
+}
+
+h4 {
+	font-family: roboto, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #707070;
+	character-spacing: -.82;
+	line-spacing: 45
+}
+
+.pic-comment {
+	margin-top: 2%;
+}
+
+hr {
+	margin-top: 2%;
+	width: 1136px;
+	height: 0px;
+	border: 3px solid #85104C; 
+}
+
+#jumbo-footer-what  {
+	width: 1136px;
+	height: 136px;
+	background-color: #F8F2D2;
+	margin-top: 5%;
+}
+
+#dhs {
+	height: auto;
+}
+
+@media screen and (min-width: 479px) {  
+  #dhs {width: 50%;} 
+}
+ 
+@media screen and (min-width: 767px) {  
+  #dhs {width: 50%;} 
+}
+
+@media screen and (min-width: 991px ) {
+  #dhs {width: 50%;}
+}
+@media screen and (min-width: 1200px ) {
+  #dhs {width: 50%;}
+}
+
+#spoonbill {
+	height: auto;
+	margin-top: 1%;
+	margin-bottom: 2%;
+}
+
+@media screen and (min-width: 479px) {  
+  #spoonbill {width: 60%;} 
+}
+ 
+@media screen and (min-width: 767px) {  
+  #spoonbill {width: 60%;} 
+}
+
+@media screen and (min-width: 991px ) {
+  #spoonbill {width: 60%;}
+}
+@media screen and (min-width: 1200px ) {
+  #spoonbill {width: 60%;}
+}
+
+#spoonbill-link {
+	height: auto;
+	align-content: center;
+}
+
+@media screen and (min-width: 479px) {  
+  #spoonbill-link {width: 50%;} 
+}
+ 
+@media screen and (min-width: 767px) {  
+  #spoonbill-link {width: 50%;} 
+}
+
+@media screen and (min-width: 991px ) {
+  #spoonbill-link {width: 50%;}
+}
+@media screen and (min-width: 1200px ) {
+  #spoonbill-link {width: 50%;}
+}
+
+/* Extra small devices (landscape phones, 1 px and up) */
+@media (min-width: 1px) {  
+  h3 {font-size: 1.5rem;} /*1rem = 16px*/
+}
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {  
+  h3 {font-size:1.5rem;} /*1rem = 16px*/
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+  h3 {font-size:2.3rem;} /*1rem = 16px*/
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  h3 {font-size:3.125rem} /*1rem = 16px*/
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  h3 {font-size:3.125rem;} /*1rem = 16px*/    
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
